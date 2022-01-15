@@ -1,11 +1,68 @@
-body {
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,200&family=Roboto&display=swap');
+
+* {
     margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
     font-family: 'Karla', sans-serif;
+    color: #302C2D;
+    background-color: #F0ECE3;
 }
 
 /* header and top nav bar */
 
 header {
-    background-color: red;    
+    margin-top: 0;
+    overflow: hidden;
+    border-bottom: solid 1px black;
+}
+
+#company-logo {
+    margin-left: 30px;
+    font-size: 300%;
+    display: inline;
+    letter-spacing: 1px;
+    text-decoration: none;
+    float: left;
+    color: #302C2D;
+}
+
+#menu, #company-logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 115%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    color: red;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu p {
+    display: inline;
+    float: right;
+}
+
+.current-page {
+    font-weight: bold;
+}
+
+#contact-us-tag {
+    margin-right: 30px !important;
 }
