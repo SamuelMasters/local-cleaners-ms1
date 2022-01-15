@@ -66,3 +66,23 @@ header {
 #contact-us-tag {
     margin-right: 30px !important;
 }
+
+/* home page */ 
+
+#hero-image {
+    float: left;
+}
+
+#hero-image img {
+    width: 33%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+#about-us, #home-page-links {
+    float: right;
+}
+
+.main-page-section {
+    display: inline-block;
+}
