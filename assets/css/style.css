@@ -99,13 +99,21 @@ header {
 }
 
 #about-us h2 {
-    font-size: 200%;
+    font-size: 230%;
     text-align: center;
 }
 
 #about-us p {
     text-align:center;
     padding-top: 2%;
+    font-size: larger;
+}
+
+#about-us hr {
+    width: 50%;               
+    background-color:#000000;
+    height: 1px;
+    margin: 5% auto;
 }
 
 #link-div {
