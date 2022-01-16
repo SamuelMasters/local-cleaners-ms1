@@ -87,15 +87,15 @@ header {
     margin-top: 3%;
     margin-left: 3%;
     display: inline-block;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 #about-us-div {
     width: 50%;
     float: right;
-    margin-top: 5%;
+    margin-top: 8%;
     margin-right: 7%;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 #about-us h2 {
@@ -123,3 +123,36 @@ header {
     margin-right: 7%;
     border: solid 1px red;
 }
+
+.cta-links {
+    width: 50%;
+    height: 20px;
+    display: inline-block;
+    margin-top: 8%;
+    text-align: center;
+    font-size: larger;
+}
+
+.cta-links a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-links a:hover {
+    color: red;
+}
+
+#cta-paragraph {
+    padding: 0 !important;
+}
+
+#services-and-prices {
+    float: left;
+}
+
+#book-us {
+    float: right;
+}
+
+/* home page links */
+
