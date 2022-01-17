@@ -121,7 +121,6 @@ header {
     width: 50%;
     float: right;
     margin-right: 7%;
-    border: solid 1px red;
 }
 
 .cta-links {
@@ -157,3 +156,21 @@ header {
 
 /* home page links */
 
+i {
+    color: #302C2D;
+}
+
+#link-div {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+#link-div a {
+    font-size: 300%;
+    margin-right: 50px;
+}
+
+#link-div i:hover {
+    color: red;
+}
