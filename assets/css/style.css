@@ -140,6 +140,7 @@ header {
 
 .cta-links a:hover {
     color: red;
+    text-decoration: underline;
 }
 
 #cta-paragraph {
