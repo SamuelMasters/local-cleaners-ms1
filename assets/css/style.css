@@ -69,25 +69,27 @@ header {
 
 /* home page */ 
 
-#hero-image {
-    float: left;
+#hero-image-section {    
+    height: 80%;
+    position: relative;
 }
 
-#hero-image img {
+#hero-image-div {
+    width: 28%;
+    height: auto;
+    float: left;
+    position: absolute;
+    left: 6%;
+    top: 25px;
+    /* border: solid 1px red; */
+}
+
+#hero-image-section img {
     width: 100%;
 }
 
 #about-us, #home-page-links {
     float: right;
-}
-
-#hero-image-div {
-    width: 33%;
-    height: 70%;
-    margin-top: 3%;
-    margin-left: 3%;
-    display: inline-block;
-    /* border: solid 1px red; */
 }
 
 #about-us-div {
@@ -163,7 +165,7 @@ i {
 #link-div {
     text-align: center;
     position: relative;
-    bottom: 100px;
+    top: 140px;
 }
 
 #link-div a {
