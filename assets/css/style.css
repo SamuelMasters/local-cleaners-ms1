@@ -80,12 +80,12 @@ header {
 }
 
 #hero-image-div {
-    width: 28%;
+    width: 25%;
     height: auto;
     float: left;
     position: absolute;
     left: 6%;
-    top: 25px;
+    top: 15%;
     /* border: solid 1px red; */
 }
 
