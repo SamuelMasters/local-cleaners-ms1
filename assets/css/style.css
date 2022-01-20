@@ -193,6 +193,15 @@ i {
     height: 25%;
     width: 75%;
     margin: 2% auto;
-    text-align: right;
+    /* text-align: right; */
     border: 1px solid red;
+}
+
+.service-options li {
+    list-style-position: inside;
+}
+
+.service-options p {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
