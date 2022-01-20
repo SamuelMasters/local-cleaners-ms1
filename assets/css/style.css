@@ -202,6 +202,11 @@ i {
 }
 
 .service-options p {
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: large;
+}
+
+.service-options h2 {
+    font-size: 32px;
 }
