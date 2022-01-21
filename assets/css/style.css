@@ -186,19 +186,21 @@ i {
 
 #service-container {
     height: 80%;
-    margin-top: 5%;
+    margin-top: 1%;
+    margin-left: 10%;
+    position: absolute;
 }
 
 .service-options {
     height: 25%;
-    width: 75%;
-    margin: 2% auto;
-    /* text-align: right; */
+    width: 70%;
+    margin: 2% 10% 2% auto;
     border: 1px solid red;
 }
 
 .service-options li {
     list-style-position: inside;
+    font-size: large;
 }
 
 .service-options p {
@@ -209,4 +211,22 @@ i {
 
 .service-options h2 {
     font-size: 32px;
+}
+
+.icon-container {
+    margin-top: 5%;
+    margin-left: 5%;
+    padding-right: 3%;
+    font-size: 500%;
+}
+
+#service-container hr {
+    width: 50%;               
+    background-color:#000000;
+    height: 1px;
+    margin: 5% auto;
+}
+
+.service-options, .icon-container {
+    float: left;
 }
