@@ -222,7 +222,7 @@ i {
     width: 50%;               
     background-color:#000000;
     height: 1px;
-    margin: 5% auto;
+    margin: 5% auto; /* this rule needs review */
 }
 
 .service-options, .icon-container {
@@ -232,9 +232,9 @@ i {
 /* review page */
 
 #review-container {
-    /* height: 90%; */
-    width: 70%;
+    width: auto;
     border: 1px solid red;
+    margin-left: 5%;
 }
 
 .review-content {
@@ -242,6 +242,8 @@ i {
     padding: 2% 0;
     margin: 3% 0;
     border: 1px solid blue;
+    width: 70%;
+    display: inline-block;
 }
 
 .review-content h2 {
@@ -250,4 +252,9 @@ i {
 
 .review-content p {
     font-size: x-large;
+}
+
+.star-container {
+    display: inline-block;
+    border: 1px solid green;
 }
