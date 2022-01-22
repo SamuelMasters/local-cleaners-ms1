@@ -195,7 +195,6 @@ i {
     height: 25%;
     width: 70%;
     margin: 2% 10% 2% auto;
-    border: 1px solid red;
 }
 
 .service-options li {
@@ -217,7 +216,6 @@ i {
     margin-top: 5%;
     margin-left: 5%;
     padding-right: 3%;
-    font-size: 500%;
 }
 
 #service-container hr {
