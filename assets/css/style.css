@@ -228,3 +228,26 @@ i {
 .service-options, .icon-container {
     float: left;
 }
+
+/* review page */
+
+#review-container {
+    /* height: 90%; */
+    width: 70%;
+    border: 1px solid red;
+}
+
+.review-content {
+    text-align: right;
+    padding: 2% 0;
+    margin: 3% 0;
+    border: 1px solid blue;
+}
+
+.review-content h2 {
+    font-size: 48px;
+}
+
+.review-content p {
+    font-size: x-large;
+}
