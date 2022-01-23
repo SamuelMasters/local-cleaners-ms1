@@ -21,6 +21,7 @@ body {
 
 header {
     margin-top: 0;
+    margin-bottom: 2%;
     overflow: hidden;
     border-bottom: solid 1px black;
 }
@@ -232,7 +233,7 @@ i {
 /* review page */
 
 #review-container {
-    height: 100%;
+    height: auto;
     width: auto;
     /* border: 1px solid red; */
     margin-left: 5%;
@@ -241,8 +242,8 @@ i {
 .review-content {
     text-align: right;
     padding: 2% 0;
-    margin: 3% 0;
-    border: 1px solid blue;
+    margin-bottom: 2%;
+    /* border: 1px solid blue; */
     height: 25%;
     width: 70%;
     display: inline-block;
@@ -259,7 +260,7 @@ i {
 
 .star-container {
     display: inline-block;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin-left: 4%;
 }
 
@@ -273,3 +274,6 @@ i {
 .star-container i {
     color: #b49b17;
 }
+
+/* contact us */
+
