@@ -252,12 +252,20 @@ i {
     font-size: 48px;
 }
 
-.review-content p {
+.review-text {
     font-size: x-large;
+    padding-top: 1%;
 }
 
 .star-container {
     display: inline-block;
-    /* border: 1px solid green; */
+    border: 1px solid green;
     margin-left: 4%;
+}
+
+.review-name {
+    font-size: x-large;
+    margin-top: 3%;
+    font-style: italic;
+    font-weight: bold;
 }
