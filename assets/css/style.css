@@ -24,6 +24,7 @@ header {
     margin-bottom: 2%;
     overflow: hidden;
     border-bottom: solid 1px black;
+    /* padding-right: 1%; */ /*this was to try and prevent scrollbar shifting on testimonials */
 }
 
 #company-logo {
@@ -277,3 +278,22 @@ i {
 
 /* contact us */
 
+#contact-container {
+    height: 100%; /* consider changing this to 'auto' once content has filled or removing it */
+    width: 75%;
+    border: 1px solid red;
+    margin: auto;
+}
+
+#contact-container h2, #contact-container p {
+    text-align: center;
+}
+
+#contact-container h2 {
+    font-size: 48px;
+    margin-bottom: 2%;
+}
+
+#contact-container p {    
+    font-size: 24px;
+}
