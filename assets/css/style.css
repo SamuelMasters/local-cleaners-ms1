@@ -269,3 +269,7 @@ i {
     font-style: italic;
     font-weight: bold;
 }
+
+.star-container i {
+    color: #b49b17;
+}
