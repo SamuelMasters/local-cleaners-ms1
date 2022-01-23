@@ -297,3 +297,18 @@ i {
 #contact-container p {    
     font-size: 24px;
 }
+
+#contact-submit {
+    text-align: center;
+    display: block;
+    background-color: #302C2D;
+    color: #F0ECE3;
+    padding: 10px 24px;
+    font-family: inherit;
+    font-size: 100%;
+    border-radius: 4px;
+}
+
+#contact-form input {
+    display: block;
+}
