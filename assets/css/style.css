@@ -279,13 +279,13 @@ i {
 /* contact us */
 
 #contact-container {
-    height: 100%; /* consider changing this to 'auto' once content has filled or removing it */
+    height: auto; /* consider changing this to 'auto' once content has filled or removing it */
     width: 75%;
     border: 1px solid red;
     margin: auto;
 }
 
-#contact-container h2, #contact-container p {
+#contact-container h2, .contact-paragraph {
     text-align: center;
 }
 
@@ -294,7 +294,7 @@ i {
     margin-bottom: 2%;
 }
 
-#contact-container p {    
+.contact-paragraph {    
     font-size: 24px;
 }
 
@@ -309,6 +309,37 @@ i {
     border-radius: 4px;
 }
 
+#contact-form label {
+    display: block;
+    margin-top: 1%;
+    border: 1px solid blue;
+    font-size: 20px;
+}
+
 #contact-form input {
     display: block;
+    margin-top: 3px;
+    border: 1px solid brown;
+    font-size: 20px;
+}
+
+#form-container {
+    display: block;
+    border: 1px solid green;
+    padding-left: 10px;
+}
+
+.radio-group {
+    display: inline-block !important;
+    margin-top: 0 !important; /* need to figure the specificity issue here */
+}
+
+#message {
+    display: inline-block;
+}
+
+#property-query {
+    text-align: left;   
+    margin-top: 1%; 
+    font-size: 20px;
 }
