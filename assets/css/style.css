@@ -329,6 +329,7 @@ i {
     display: block;
     /* border: 1px solid green; */
     padding-left: 10px;
+    padding-top: 2%;
 }
 
 .radio-group {
@@ -395,4 +396,50 @@ i {
     .fa-7x {
         font-size: 5em !important;
     }
-}
+
+    .review-text {
+        font-size: large;
+    }    
+
+    .review-content {
+        width: 62%;
+    }
+
+    .fa-3x {
+        font-size: 2em !important;
+    }
+
+    .review-content h2 {
+        font-size: 32px;
+    }
+
+    .review-name {
+        font-size: large;
+    }
+
+    textarea {
+        width: 80%;
+    }
+
+    #contact-container h2 {
+        font-size: 38px;
+    }
+
+    .contact-paragraph {
+        font-size: 20px;
+    }
+
+    #contact-form label, #property-query {
+        font-size: 20px;
+        margin-top: 3%;
+    }
+
+    #contact-form {
+        padding-bottom: 3%;
+    }
+
+    #contact-container {
+        width: 80%;
+    }
+
+    
