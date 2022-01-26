@@ -346,3 +346,53 @@ i {
     margin-top: 1%; 
     font-size: 20px;
 }
+
+/* Media Queries */ 
+
+@media screen and (max-width: 1320px) {
+    #hero-image-div {
+        position: static;
+        margin: auto;
+        float: none;
+    }
+
+    #about-us-div {
+        margin: auto; 
+        float: none;
+        padding-top: 2%;
+        width: 90%;
+    }
+
+    #link-div {
+        float: none;
+        margin: auto;
+    }
+
+    .cta-links a {
+        font-size: x-large;
+    }
+
+    #service-container {
+        height: auto;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .service-options {
+        width: 80%;
+        margin: 2% auto;
+    }
+
+    .icon-container {
+        padding: 0;
+        margin: 1% auto;
+        width: 16%;
+        position: relative;
+        top: 55px;
+        left: 25px;
+    }
+
+    .fa-7x {
+        font-size: 5em !important;
+    }
+}
