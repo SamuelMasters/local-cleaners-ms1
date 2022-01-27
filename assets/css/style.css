@@ -367,6 +367,7 @@ i {
     #link-div {
         float: none;
         margin: auto;
+        padding-bottom: 3%;
     }
 
     .cta-links a {
@@ -442,4 +443,34 @@ i {
         width: 80%;
     }
 
+}
+
+@media screen and (max-width: 675px) {
+    #hero-image-div {
+        width: 50%;
+    }
+
+    #menu li {
+        font-size: 100%;
+        
+    }
+
+    #company-logo {
+        font-size: 250%;
+        display: block;
+        float: none;
+        text-align: center;
+    }
+
+    #menu, #company-logo {
+        line-height: 50px;
+    }
+
+    #about-us h2 {
+        font-size: 190%;
+    }
+
+    #about-us p {
+        font-size: large;
+    }
 }
