@@ -460,6 +460,7 @@ i {
         display: block;
         float: none;
         text-align: center;
+        margin-left: 0;
     }
 
     #menu, #company-logo {
@@ -472,5 +473,25 @@ i {
 
     #about-us p {
         font-size: large;
+    }
+
+    .service-options p, .service-options li {
+        font-size: medium;
+    }
+
+    .service-options {
+        margin: 5% auto;
+    }
+
+    .fa-7x {
+        font-size: 3em !important;
+    }
+
+    #review-container {
+        margin-left: 2%;
+    }
+
+    .review-content {
+        padding: 5% 0;
     }
 }
