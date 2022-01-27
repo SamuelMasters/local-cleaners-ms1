@@ -495,3 +495,41 @@ i {
         padding: 5% 0;
     }
 }
+
+@media screen and (max-width: 475px) {
+    #link-div {
+        width: 100%;
+    }
+
+    #link-div a {
+        margin-right: 25px;
+    }
+
+    .cta-links {
+        width: 100%;
+    }
+
+    #services-and-prices {
+        padding: 5% 0;
+    }
+
+    .service-options, .icon-container {
+        float: none;
+    }
+
+    .icon-container {
+        position: static;
+    }
+
+    .review-content {
+        display: block;
+        width: 90%;
+    }
+
+    .star-container {
+        width: 50%;
+        margin: auto;
+        display: block;
+        padding-bottom: 10%;
+    }
+}
