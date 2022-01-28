@@ -66,18 +66,15 @@ header {
     list-style-type: none;
 }
 
-#menu p {
-    display: inline;
+#menu span {
+    /* display: inline; */
     float: right;
+    display: none;
 }
 
 .current-page {
     font-weight: bold;
 }
-
-/* #contact-us-tag {
-    margin-right: 30px !important;
-} */
 
 /* home page */ 
 
