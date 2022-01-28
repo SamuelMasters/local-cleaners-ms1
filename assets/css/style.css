@@ -94,6 +94,10 @@ header {
     width: 100%;
 }
 
+#vacuum-img {
+    display: none;
+}
+
 #about-us, #home-page-links {
     float: right;
 }
@@ -532,8 +536,16 @@ i {
 }
 
 @media screen and (max-width: 370px) {
-    #hero-image-div {
+    #housekeeper-img {
         display: none;
+    }
+
+    #hero-image-div {
+        width: 75%;
+    }
+
+    #vacuum-img {
+        display: block;
     }
 
     #menu li {
