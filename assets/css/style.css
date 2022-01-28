@@ -572,5 +572,6 @@ i {
 @media screen and (max-width: 335px) {
     #list-container {
         padding-right: 0;
+        font-size: 80%;
     }
 }
