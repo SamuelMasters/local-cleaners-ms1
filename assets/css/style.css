@@ -24,7 +24,6 @@ header {
     margin-bottom: 2%;
     overflow: hidden;
     border-bottom: solid 1px black;
-    /* padding-right: 1%; */ /*this was to try and prevent scrollbar shifting on testimonials */
 }
 
 #company-logo {
@@ -67,7 +66,6 @@ header {
 }
 
 #menu span {
-    /* display: inline; */
     float: right;
     display: none;
 }
@@ -90,7 +88,6 @@ header {
     position: absolute;
     left: 6%;
     top: 15%;
-    /* border: solid 1px red; */
 }
 
 #hero-image-section img {
@@ -106,7 +103,6 @@ header {
     float: right;
     margin-top: 5%;
     margin-right: 7%;
-    /* border: solid 1px red; */
 }
 
 #about-us h2 {
@@ -147,10 +143,6 @@ header {
     color: red;
     text-decoration: underline;
 }
-
-/* #cta-paragraph {
-    padding: 0 !important;
-} */
 
 #services-and-prices {
     float: left;
@@ -225,7 +217,7 @@ i {
     width: 50%;               
     background-color:#000000;
     height: 1px;
-    margin: 5% auto; /* this rule needs review */
+    margin: 5% auto;
 }
 
 .service-options, .icon-container {
@@ -237,7 +229,6 @@ i {
 #review-container {
     height: auto;
     width: auto;
-    /* border: 1px solid red; */
     margin-left: 5%;
 }
 
@@ -245,7 +236,6 @@ i {
     text-align: right;
     padding: 2% 0;
     margin-bottom: 2%;
-    /* border: 1px solid blue; */
     height: 25%;
     width: 70%;
     display: inline-block;
@@ -262,7 +252,6 @@ i {
 
 .star-container {
     display: inline-block;
-    /* border: 1px solid green; */
     margin-left: 4%;
 }
 
@@ -280,9 +269,8 @@ i {
 /* contact us */
 
 #contact-container {
-    height: auto; /* consider changing this to 'auto' once content has filled or removing it */
+    height: auto;
     width: 75%;
-    /* border: 1px solid red; */
     margin: auto;
 }
 
@@ -313,7 +301,6 @@ i {
 #contact-form label {
     display: block;
     margin-top: 1%;
-    /* border: 1px solid blue; */
     font-size: 20px;
 }
 
@@ -329,7 +316,6 @@ i {
 
 #form-container {
     display: block;
-    /* border: 1px solid green; */
     padding-left: 10px;
     padding-top: 2%;
 }
@@ -337,7 +323,7 @@ i {
 .radio-group {
     display: inline-block !important;
     margin-top: 0 !important;
-    margin-right: 5px; /* need to figure the specificity issue here */
+    margin-right: 5px;
 }
 
 #message {
