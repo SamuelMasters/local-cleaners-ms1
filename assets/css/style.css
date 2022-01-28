@@ -86,7 +86,7 @@ header {
     height: auto;
     float: left;
     position: absolute;
-    left: 6%;
+    left: 4%;
     top: 15%;
 }
 
@@ -531,7 +531,7 @@ i {
     }
 }
 
-@media screen and (max-width: 335px) {
+@media screen and (max-width: 370px) {
     #hero-image-div {
         display: none;
     }
