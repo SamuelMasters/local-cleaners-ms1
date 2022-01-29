@@ -191,10 +191,26 @@ The only image used in the project was used on the front page, and was taken fro
 ### [W3 HTML Validation](https://validator.w3.org/)
 
 All four HTML documents have passed with no errors. 
+- [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsamuelmasters.github.io%2Flocal-cleaners-ms1%2Findex.html)
+- [Services](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsamuelmasters.github.io%2Flocal-cleaners-ms1%2Fservices.html)
+- [Testimonials](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsamuelmasters.github.io%2Flocal-cleaners-ms1%2Freviews.html)
+- [Contact Us](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsamuelmasters.github.io%2Flocal-cleaners-ms1%2Fcontact.html)
 
 ### [Jigsaw CSS Validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsamuelmasters.github.io%2Flocal-cleaners-ms1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 This project's style.css document has been passed through the CSS validator with no errors, and successfully validates as CSS level 3 + SVG. 
+
+## Browser Compatibility
+The website was tested across Chrome, Firefox, and Edge browsers.
+
+- Chrome
+![Front page as seen on from the Google Chrome browser.](assets/testing/chrome-test.png)
+
+- Edge
+![Front page as seen from the Microsoft Edge browser.](assets/testing/edge-test.png)
+
+- Firefox
+![Front page as seen from the Mozilla Firefox browser](assets/testing/firefox-test.png)
 
 ## Responsiveness
 
@@ -204,12 +220,21 @@ This project utilised media queries to ensure that the website's design remains 
 
 1. Fixed -- W3 HTML Validator Errors
    - When the project's HTML was first run through the validator, it returned an error due to usage of a paragraph tag nested within a unordered list element. This was initially done to provide a space to put the '|' operator in the navigation bar. To fix this error, I simply replaced the paragraph tags with additional list items tags to house the operator instead. 
-2. Fixed -- W3 HTML Validator Warnings
-   - At the same time as seeing the errors being returned above, an additional warning was presented, specifying that a section within index.html should include a heading tag somewhere. The section in question however was only containing the hero image, and as such did not require a heading. To circumvent this warning, a 'dummy' heading was added with a 'display: none;' style added to prevent it from actually appearing on the web page. After adding this and resubmitting the HTML through the validator, it passed with no further errors or warnings.  
+2. Unresolved -- W3 HTML Validator Warnings
+   - At the same time as seeing the errors being returned above, an additional warning was presented, specifying that a section within index.html should include a heading tag somewhere. The section in question however was only containing the hero image, and as such did not require a heading. Therefore, in this instance the warning was left unresolved, but the section was left in to keep semantic distinction.  
+3. Unresolved - Firefox Text Rendering
+   - During testing, the Firefox browser appeared to render the chosen font in a lighter, thinner style than intended. This appeared to be a problem exclusive to this particular browser, as this issue was not replicated on other browsers. After some research, it appears that the cause of the bug is a difference in the font-rendering engine used for Firefox compared to that of Edge and Chrome. Because of the nature of this issue, I was unable to standardise the font-weights across the browsers. The lighter font weight is consistent across the site on Firefox, however. 
 
 # Deployment
 
-## GitHub pages
+## Gitpod
+GitPod was used as the IDE for this project. It can be setup via the following steps:
+1. Install the Gitpod browser extension [here](https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki).
+2. Navigate to your GitHub account and log in. 
+3. Navigate to your own repository. 
+4. Click the green 'Gitpod' button near the top of the page. 
+
+## Remote deployment
 
 GitHub Pages was used to deploy this project. 
 
@@ -221,13 +246,39 @@ It was achieved via the following steps:
 4. Under 'Source', click on the dropdown menu, and select "main". 
 5. Click 'Save'. Wait a few minutes, refresh the page, and a link will be provided at the top of the page with a URL to your website. 
 
+## Cloning the repository
+
+If you wish to clone the repository to make a dynamic copy of this project, you may do so via the following steps: 
+
+1. Navigate to your GitHub account and log in. 
+2. Navigate to the [repository](https://github.com/SamuelMasters/local-cleaners-ms1). 
+3. Click 'Code', and on the dropdown menu, click the copy icon alongside the provided URL. 
+4. Open Gitpod in your own repository, and open a terminal. 
+5. Type 'git clone ' followed by the URL you copied in the previous steps.
+6. Press Enter to finish cloning of the repository.  
+
+## Forking the repository
+
+If you wish to fork the repository to make a static, independent copy of this project, you may do so via the following steps: 
+
+1. Navigate to your GitHub account and log in. 
+2. Navigate to the [repository](https://github.com/SamuelMasters/local-cleaners-ms1). 
+3. In the top-right corner, click 'Fork'. 
+4. You should now have a copy of the original repository amongst your other repositories. 
+
+Copying a repository in this way allows you to make changes to the code without affecting the original project, and can be useful for experimentation. 
+
 ---
 
 # Credits
 
 1. [Code Institute](https://codeinstitute.net/)
    - For providing me with the knowledge and resources to get to this point, which I would not have been able to do otherwise!
-5. [MDN Web Docs](https://developer.mozilla.org/en-US/)
+2. [MDN Web Docs](https://developer.mozilla.org/en-US/)
    - An incredibly useful reference which was used frequently throughout development of the website.
-6. [Chris Quinn](https://github.com/10xOXR)
+3. [Chris Quinn](https://github.com/10xOXR)
    - Chris' guidance and direction were a particular help with this, my first portfolio project. Thank you! 
+4. [Pexels](https://www.pexels.com/)
+   - The [main image](https://www.pexels.com/photo/housekeepers-standing-back-to-back-and-smiling-9462614/) used on the front page of this site was created by [Liliana Drew](https://www.pexels.com/@liliana-drew), and was found on Pexels. The image was marked as 'Free to Use' and was used in accordance with the site's [licensing rules](https://www.pexels.com/license/). 
+5. [Favicon.io](https://favicon.io/)
+   - The site's favicon was found on the website [favicon.io]() and was used in this project under the [Creative Commons 4.0 license](https://creativecommons.org/licenses/by/4.0/legalcode). The icon was available as part of the open source [Twemoji](https://github.com/twitter/twemoji/blob/master/assets/svg/1f9fc.svg) project. 
